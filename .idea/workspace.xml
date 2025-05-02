@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc37f5b6-9fe2-4afc-b2ed-7ec548df58ed" name="Changes" comment="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
+    <list default="true" id="cc37f5b6-9fe2-4afc-b2ed-7ec548df58ed" name="Changes" comment="stages modified for attempts, if the difficulty is easy more attempts, if medium and hard fewer attempts.">
+      <change afterPath="$PROJECT_DIR$/sounds/075747_inception-horn-victory-82997.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/buzzer-or-wrong-answer-20582.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/coin-recieved-230517.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/failure-1-89170.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CnSltk"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/CnSltk/Hang_Man.git",
@@ -42,6 +55,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cansa\PycharmProjects\HangManProject\sounds" />
+      <recent name="C:\Users\cansa\PycharmProjects\HangManProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745843479746</updated>
       <workItem from="1745843480852" duration="2956000" />
-      <workItem from="1746172276132" duration="2042000" />
+      <workItem from="1746172276132" duration="3131000" />
     </task>
     <task id="LOCAL-00001" summary="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt">
       <option name="closed" value="true" />
@@ -69,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746174319842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stages modified for attempts, if the difficulty is easy more attempts, if medium and hard fewer attempts.">
+      <option name="closed" value="true" />
+      <created>1746174770993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746174770993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,9 +104,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
+    <MESSAGE value="stages modified for attempts, if the difficulty is easy more attempts, if medium and hard fewer attempts." />
+    <option name="LAST_COMMIT_MESSAGE" value="stages modified for attempts, if the difficulty is easy more attempts, if medium and hard fewer attempts." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HangManProject$main.coverage" NAME="main Coverage Results" MODIFIED="1746174155668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HangManProject$main.coverage" NAME="main Coverage Results" MODIFIED="1746175400912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

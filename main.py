@@ -1,6 +1,7 @@
 import random
+import pygame
 
-
+pygame.mixer.init()
 def load_words(filename="words.txt"):
     difficulties = {'easy':[], 'medium':[], 'hard':[]}
     current_level = None
@@ -132,6 +133,10 @@ def play_game():
     ]
     print("\nWelcome to Hangman!")
     while True:
+        wrong_sound=pygame.mixer.Sound('sounds/buzzer-or-wrong-answer-20582.wav')
+        correct_sound=pygame.mixer.Sound('sounds/coin-recieved-230517.wav')
+        win_sound=pygame.mixer.Sound('sounds/075747_inception-horn-victory-82997.wav')
+        lose_sound=pygame.mixer.Sound('sounds/failure-1-89170.wav')
         print(stages[incorrect_guesses])
         print("\n" + display_word(word, guessed_letters))
         print(f"Guessed letters: {' '.join(guessed_letters)}")
@@ -142,9 +147,11 @@ def play_game():
             guessed_letters.append(guess)
             if guess in word:
                 print("Good Guess")
+                correct_sound.play()
             else:
                 incorrect_guesses += 1
                 print(f"Wrong guess :( , remaining guesses: {max_attempts - incorrect_guesses}")
+                wrong_sound.play()
         else:
             if guess == word:
                 print(f"You Win! You guessed the word: {word}")
@@ -154,9 +161,13 @@ def play_game():
                 print(f"Wrong full word guess :( , remaining guesses: {max_attempts - incorrect_guesses}")
         if all(letter in guessed_letters for letter in word):
             print(f"You Win! The word was: {word}")
+            win_sound.play()
+            pygame.time.wait(3000)
             break
         if incorrect_guesses >= max_attempts:
             print(f"You Lose! The word was: {word}")
+            lose_sound.play()
+            pygame.time.wait(3000)
             break
 
 
