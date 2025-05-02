@@ -50,7 +50,12 @@ def play_game():
     word=choose_word(words_dict,difficulties)
     guessed_letters=[]
     incorrect_guesses=0
-    max_attempts=6
+    if difficulties == "easy":
+        max_attempts=8
+    if difficulties == "medium":
+        max_attempts=6
+    if difficulties == "hard":
+        max_attempts=4
     stages = [
         '''
          +---+
@@ -107,7 +112,23 @@ def play_game():
         /|\\  |
         / \\  |
              |
-        ========='''  # 6 incorrect
+        =========''', # 6 incorrect
+        '''
+                 +---+
+                 |   |
+                 O   |
+                /|\\  |
+               // \\  |
+                     |
+                =========''', # 7 incorrect
+        '''
+                +---+
+                |   |
+                O   |
+              //|\\  |
+              // \\  |
+                     |
+                =========''', # 8 incorrect
     ]
     print("\nWelcome to Hangman!")
     while True:

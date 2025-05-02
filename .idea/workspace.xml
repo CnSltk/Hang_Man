@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc37f5b6-9fe2-4afc-b2ed-7ec548df58ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HangManProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
-    </list>
+    <list default="true" id="cc37f5b6-9fe2-4afc-b2ed-7ec548df58ed" name="Changes" comment="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CnSltk/Hang_Man.git",
+    "accountId": "9b7045a5-78e1-4853-87dd-da48a29a1234"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -62,14 +59,27 @@
       <option name="presentableId" value="Default" />
       <updated>1745843479746</updated>
       <workItem from="1745843480852" duration="2956000" />
-      <workItem from="1746172276132" duration="1536000" />
+      <workItem from="1746172276132" duration="2042000" />
     </task>
+    <task id="LOCAL-00001" summary="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt">
+      <option name="closed" value="true" />
+      <created>1746174319842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746174319842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="hangman stages is drawn accordingly. If the attempt is unsuccessful the stages are shown accordingly. The game features a word or a letter guessing. Max attempts is 6. the list of words and their difficulty levels included in words.txt" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HangManProject$main.coverage" NAME="main Coverage Results" MODIFIED="1746173736413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HangManProject$main.coverage" NAME="main Coverage Results" MODIFIED="1746174155668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
